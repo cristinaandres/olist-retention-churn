@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (Do not track CSV/zip files in Git)
+data/*.csv
+data/*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
