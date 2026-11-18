@@ -49,3 +49,18 @@ Customers who leave 1-star reviews experience median delivery delays above the e
 #### 2. The "5-Star" Loyalty Effect
 ![Repeat Rate](reports/repeat_rate_reviews.png)
 While the overall repeat purchase rate is low (~6%), it peaks for customers who gave a 5-star review. Interestingly, 4-star reviews show a lower retention rate, suggesting that "good enough" service doesn't drive loyalty; only exceptional experiences do.
+
+# Executive Summary: Olist E-commerce Retention Analysis
+
+## 📊 Business Context
+The objective of this project was to analyze the retention and churn behavior of customers on the Olist platform, a Brazilian e-commerce marketplace, to identify what drives customers away and how to increase Customer Lifetime Value (LTV).
+
+## 🔍 Key Findings
+1. **Low Baseline Retention:** As a non-subscription marketplace, month-1 retention is naturally low (0.3% - 0.8%). Customers buy once and rarely return in the short term.
+2. **Logistics is Critical:** There is a direct correlation between delivery delays and negative reviews. Customers who leave 1-star reviews experienced delivery times significantly above the estimated date.
+3. **The "5-Star" Effect:** Customers who have a 5-star experience (early delivery, good product) are the most likely to make a repeat purchase. Average or "good enough" (4-star) experiences do not drive loyalty.
+
+## 💡 Actionable Recommendations
+1. **Prioritize Logistics in High-Volume States:** Focus on improving delivery times in São Paulo (SP) and Rio de Janeiro (RJ). Ensure estimated delivery dates are realistic to avoid broken promises.
+2. **Targeted Retention Campaigns:** Implement a post-purchase email flow specifically targeting customers who gave a 4-star review, offering a discount for their next purchase to convert them into 5-star loyal customers.
+3. **Review the 1-Star Process:** Implement a customer service escalation protocol for any order flagged as delayed, offering proactive support before the customer leaves a negative review.
