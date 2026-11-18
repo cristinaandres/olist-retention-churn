@@ -30,3 +30,12 @@ An e-commerce platform (Olist) is experiencing a high customer churn rate. The m
 - [ ] Churn root cause analysis (delivery, reviews, payments).
 - [ ] Dashboard construction.
 - [ ] Final Executive Report writing.
+
+## 📈 Initial Findings: Cohort Retention
+
+![Cohort Retention Heatmap](reports/cohort_retention_heatmap.png)
+
+**Key Insights:**
+- **Low baseline retention:** As expected in a non-subscription marketplace, month-1 retention is very low (around 0.3% - 0.8%).
+- **Data cleaning:** Filtered out canceled/unavailable orders, reducing the dataset from 99,441 to 96,470 valid delivered orders.
+- **Next steps:** Investigate churn drivers, specifically analyzing if delayed deliveries or negative review scores are correlated with customers not returning.
