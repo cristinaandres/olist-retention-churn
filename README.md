@@ -39,3 +39,13 @@ An e-commerce platform (Olist) is experiencing a high customer churn rate. The m
 - **Low baseline retention:** As expected in a non-subscription marketplace, month-1 retention is very low (around 0.3% - 0.8%).
 - **Data cleaning:** Filtered out canceled/unavailable orders, reducing the dataset from 99,441 to 96,470 valid delivered orders.
 - **Next steps:** Investigate churn drivers, specifically analyzing if delayed deliveries or negative review scores are correlated with customers not returning.
+
+### 🔍 Key Insights: Churn Drivers
+
+#### 1. Logistics drive Satisfaction
+![Delivery Impact](reports/delivery_impact.png)
+Customers who leave 1-star reviews experience median delivery delays above the estimated date. In contrast, 5-star reviews correlate with early deliveries. 
+
+#### 2. The "5-Star" Loyalty Effect
+![Repeat Rate](reports/repeat_rate_reviews.png)
+While the overall repeat purchase rate is low (~6%), it peaks for customers who gave a 5-star review. Interestingly, 4-star reviews show a lower retention rate, suggesting that "good enough" service doesn't drive loyalty; only exceptional experiences do.
