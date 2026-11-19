@@ -24,12 +24,12 @@ An e-commerce platform (Olist) is experiencing a high customer churn rate. The m
 
 ## 🗺️ Project Roadmap
 - [x] Repository structure setup.
-- [ ] Data loading and cleaning (EDA).
-- [ ] SQL Data Modeling (Joins of the 9 tables).
-- [ ] Cohort retention matrix calculation.
-- [ ] Churn root cause analysis (delivery, reviews, payments).
-- [ ] Dashboard construction.
-- [ ] Final Executive Report writing.
+- [x] Data loading and cleaning (EDA).
+- [x] SQL Data Modeling (Joins of the 9 tables).
+- [x] Cohort retention matrix calculation.
+- [x] Churn root cause analysis (delivery, reviews, payments).
+- [x] Dashboard construction.
+- [x] Final Executive Report writing. (Link to [Executive Summary](reports/executive_summary.md))
 
 ## 📈 Initial Findings: Cohort Retention
 
@@ -64,3 +64,10 @@ The objective of this project was to analyze the retention and churn behavior of
 1. **Prioritize Logistics in High-Volume States:** Focus on improving delivery times in São Paulo (SP) and Rio de Janeiro (RJ). Ensure estimated delivery dates are realistic to avoid broken promises.
 2. **Targeted Retention Campaigns:** Implement a post-purchase email flow specifically targeting customers who gave a 4-star review, offering a discount for their next purchase to convert them into 5-star loyal customers.
 3. **Review the 1-Star Process:** Implement a customer service escalation protocol for any order flagged as delayed, offering proactive support before the customer leaves a negative review.
+
+## 📊 Interactive Dashboard
+I connected Power BI directly to the PostgreSQL database running in Docker to create an interactive dashboard that visualizes the retention and churn drivers.
+
+![Dashboard Preview](dashboard/dashboard_preview.png)
+
+*You can find the full PDF and the Power BI file (`.pbix`) inside the `dashboard` folder.*
